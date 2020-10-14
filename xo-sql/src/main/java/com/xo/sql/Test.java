@@ -2,12 +2,8 @@ package com.xo.sql;
 
 import com.xo.sql.bean.Student;
 import com.xo.sql.mapper.StudentRowMapper;
-import com.xo.sql.util.JdbcTemplate;
-import com.xo.sql.util.JdbcUtil;
+import com.xo.sql.core.JdbcTemplate;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.List;
 
 /**

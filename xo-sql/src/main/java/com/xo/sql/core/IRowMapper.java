@@ -1,4 +1,4 @@
-package com.xo.sql.mapper;
+package com.xo.sql.core;
 
 import java.sql.ResultSet;
 import java.util.List;

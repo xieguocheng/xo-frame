@@ -1,11 +1,10 @@
-package com.xo.sql.util;
+package com.xo.sql.core;
 
-import com.xo.sql.mapper.IRowMapper;
+import com.xo.sql.util.JdbcUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.List;
 
 /**
  * User: XO
