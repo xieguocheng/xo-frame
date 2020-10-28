@@ -16,6 +16,7 @@ public class Test {
         String sql = "SELECT * FROM student WHERE id = ?";
         List<Student> list = (List<Student>) JdbcTemplate.query(sql, new StudentRowMapper(),id);
         return list.size() > 0 ? list.get(0) : null;
+
     }
 
     public static void main(String[] args) throws Exception {
